@@ -1,6 +1,6 @@
 # capy_store
 
-A new Flutter project.
+Online store for gamers
 
 ## Getting Started
 
