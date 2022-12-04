@@ -57,27 +57,31 @@ class FillProfilePage extends StatelessWidget {
                           color: Colors.transparent 
                         ),
                         width: 380,
-                        child: TextField(
-                          style: const TextStyle(
-                            color: Colors.white
-                          ),
-                          decoration: InputDecoration(
-                            fillColor: AppColors.textFieldBg,
-                            filled: true,
-                            hintText: 'Full Name',
-                            hintStyle: AppStyles.greyText,
-                            focusedBorder: OutlineInputBorder(
-                              borderSide: const BorderSide(
-                                color: AppColors.primaryColor,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(12),
+                          child: TextField(
+                            style: const TextStyle(
+                              color: Colors.white
+                            ),
+                            decoration: InputDecoration(
+                              border: InputBorder.none,
+                              fillColor: AppColors.textFieldBg,
+                              filled: true,
+                              hintText: 'Full Name',
+                              hintStyle: AppStyles.greyText,
+                              focusedBorder: OutlineInputBorder(
+                                borderSide: const BorderSide(
+                                  color: AppColors.primaryColor,
+                                ),
+                                borderRadius: BorderRadius.circular(12),
                               ),
-                              borderRadius: BorderRadius.circular(12),
+                              counterStyle: const TextStyle(
+                                color: AppColors.primaryColor
+                              ),
+                              floatingLabelStyle: const TextStyle(
+                                color: AppColors.primaryColor
+                              ), 
                             ),
-                            counterStyle: const TextStyle(
-                              color: AppColors.primaryColor
-                            ),
-                            floatingLabelStyle: const TextStyle(
-                              color: AppColors.primaryColor
-                            ), 
                           ),
                         ),
                         ),
@@ -94,27 +98,31 @@ class FillProfilePage extends StatelessWidget {
                           color: Colors.transparent 
                         ),
                         width: 380,
-                        child: TextField(
-                          style: const TextStyle(
-                            color: Colors.white
-                          ),
-                          decoration: InputDecoration(
-                            fillColor: AppColors.textFieldBg,
-                            filled: true,
-                            hintText: 'Nickname',
-                            hintStyle: AppStyles.greyText,
-                            focusedBorder: OutlineInputBorder(
-                              borderSide: const BorderSide(
-                                color: AppColors.primaryColor,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(12),
+                          child: TextField(
+                            style: const TextStyle(
+                              color: Colors.white
+                            ),
+                            decoration: InputDecoration(
+                              border: InputBorder.none,
+                              fillColor: AppColors.textFieldBg,
+                              filled: true,
+                              hintText: 'Nickname',
+                              hintStyle: AppStyles.greyText,
+                              focusedBorder: OutlineInputBorder(
+                                borderSide: const BorderSide(
+                                  color: AppColors.primaryColor,
+                                ),
+                                borderRadius: BorderRadius.circular(12),
                               ),
-                              borderRadius: BorderRadius.circular(12),
+                              counterStyle: const TextStyle(
+                                color: AppColors.primaryColor
+                              ),
+                              floatingLabelStyle: const TextStyle(
+                                color: AppColors.primaryColor
+                              ), 
                             ),
-                            counterStyle: const TextStyle(
-                              color: AppColors.primaryColor
-                            ),
-                            floatingLabelStyle: const TextStyle(
-                              color: AppColors.primaryColor
-                            ), 
                           ),
                         ),
                         ),
@@ -131,27 +139,31 @@ class FillProfilePage extends StatelessWidget {
                           color: Colors.transparent 
                         ),
                         width: 380,
-                        child: TextField(
-                          style: const TextStyle(
-                            color: Colors.white
-                          ),
-                          decoration: InputDecoration(
-                            fillColor: AppColors.textFieldBg,
-                            filled: true,
-                            hintText: 'Date of Birth',
-                            hintStyle: AppStyles.greyText,
-                            focusedBorder: OutlineInputBorder(
-                              borderSide: const BorderSide(
-                                color: AppColors.primaryColor,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(12),
+                          child: TextField(
+                            style: const TextStyle(
+                              color: Colors.white
+                            ),
+                            decoration: InputDecoration(
+                              border: InputBorder.none,
+                              fillColor: AppColors.textFieldBg,
+                              filled: true,
+                              hintText: 'Date of Birth',
+                              hintStyle: AppStyles.greyText,
+                              focusedBorder: OutlineInputBorder(
+                                borderSide: const BorderSide(
+                                  color: AppColors.primaryColor,
+                                ),
+                                borderRadius: BorderRadius.circular(12),
                               ),
-                              borderRadius: BorderRadius.circular(12),
+                              counterStyle: const TextStyle(
+                                color: AppColors.primaryColor
+                              ),
+                              floatingLabelStyle: const TextStyle(
+                                color: AppColors.primaryColor
+                              ), 
                             ),
-                            counterStyle: const TextStyle(
-                              color: AppColors.primaryColor
-                            ),
-                            floatingLabelStyle: const TextStyle(
-                              color: AppColors.primaryColor
-                            ), 
                           ),
                         ),
                         ),
@@ -168,27 +180,31 @@ class FillProfilePage extends StatelessWidget {
                           color: Colors.transparent 
                         ),
                         width: 380,
-                        child: TextField(
-                          style: const TextStyle(
-                            color: Colors.white
-                          ),
-                          decoration: InputDecoration(
-                            fillColor: AppColors.textFieldBg,
-                            filled: true,
-                            hintText: 'Email',
-                            hintStyle: AppStyles.greyText,
-                            focusedBorder: OutlineInputBorder(
-                              borderSide: const BorderSide(
-                                color: AppColors.primaryColor,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(12),
+                          child: TextField(
+                            style: const TextStyle(
+                              color: Colors.white
+                            ),
+                            decoration: InputDecoration(
+                              border: InputBorder.none,
+                              fillColor: AppColors.textFieldBg,
+                              filled: true,
+                              hintText: 'Email',
+                              hintStyle: AppStyles.greyText,
+                              focusedBorder: OutlineInputBorder(
+                                borderSide: const BorderSide(
+                                  color: AppColors.primaryColor,
+                                ),
+                                borderRadius: BorderRadius.circular(12),
                               ),
-                              borderRadius: BorderRadius.circular(12),
+                              counterStyle: const TextStyle(
+                                color: AppColors.primaryColor
+                              ),
+                              floatingLabelStyle: const TextStyle(
+                                color: AppColors.primaryColor
+                              ), 
                             ),
-                            counterStyle: const TextStyle(
-                              color: AppColors.primaryColor
-                            ),
-                            floatingLabelStyle: const TextStyle(
-                              color: AppColors.primaryColor
-                            ), 
                           ),
                         ),
                         ),
@@ -205,27 +221,31 @@ class FillProfilePage extends StatelessWidget {
                           color: Colors.transparent 
                         ),
                         width: 380,
-                        child: TextField(
-                          style: const TextStyle(
-                            color: Colors.white
-                          ),
-                          decoration: InputDecoration(
-                            fillColor: AppColors.textFieldBg,
-                            filled: true,
-                            hintText: 'Gender',
-                            hintStyle: AppStyles.greyText,
-                            focusedBorder: OutlineInputBorder(
-                              borderSide: const BorderSide(
-                                color: AppColors.primaryColor,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(12),
+                          child: TextField(
+                            style: const TextStyle(
+                              color: Colors.white
+                            ),
+                            decoration: InputDecoration(
+                              border: InputBorder.none,
+                              fillColor: AppColors.textFieldBg,
+                              filled: true,
+                              hintText: 'Gender',
+                              hintStyle: AppStyles.greyText,
+                              focusedBorder: OutlineInputBorder(
+                                borderSide: const BorderSide(
+                                  color: AppColors.primaryColor,
+                                ),
+                                borderRadius: BorderRadius.circular(12),
                               ),
-                              borderRadius: BorderRadius.circular(12),
+                              counterStyle: const TextStyle(
+                                color: AppColors.primaryColor
+                              ),
+                              floatingLabelStyle: const TextStyle(
+                                color: AppColors.primaryColor
+                              ), 
                             ),
-                            counterStyle: const TextStyle(
-                              color: AppColors.primaryColor
-                            ),
-                            floatingLabelStyle: const TextStyle(
-                              color: AppColors.primaryColor
-                            ), 
                           ),
                         ),
                         ),
